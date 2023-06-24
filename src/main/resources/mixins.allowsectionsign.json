@@ -1,0 +1,10 @@
+{
+  "compatibilityLevel": "JAVA_8",
+  "package": "me.nixuge.allowsectionsign.mixins",
+  "refmap": "refmap.allowsectionsign.json",
+  "mixins": [],
+  "client": [
+    "util.ChatAllowedCharactersMixin"
+  ],
+  "server": []
+}
