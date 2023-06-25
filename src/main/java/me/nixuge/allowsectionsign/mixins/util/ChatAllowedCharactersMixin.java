@@ -12,7 +12,6 @@ public class ChatAllowedCharactersMixin {
     @Overwrite
     public static boolean isAllowedCharacter(char character) {
         // Vanilla checks - the section sign one (167)
-        System.out.println("CALLED");
         return character >= 32 && character != 127;
     }
 }
